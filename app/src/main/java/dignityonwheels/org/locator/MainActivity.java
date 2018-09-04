@@ -79,4 +79,9 @@ public class MainActivity extends AppCompatActivity {
 
         navBar.setSelectedItemId(R.id.nav_home);
     }
+
+    @Override
+    public void onBackPressed() {
+        navBar.setSelectedItemId(R.id.nav_home);
+    }
 }
